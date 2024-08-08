@@ -8,7 +8,42 @@
 
 ### Import API
 
-```js
+# 1.
+```jsx
+
+function App() {
+
+  const users = [
+    {
+      id: 1,
+      name: "Jasur",
+      age: 18,
+    },
+    {
+      id: 2,
+      name: "Ali",
+      age: 22
+    }
+  ];
+  return (
+    <div>
+      {users.map(user => (
+        <div key={user.id}>
+          <h3>{user.name}</h3>
+          <p>age: {user.age}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export default App;
+```
+
+
+# 2.
+
+```jsx
 import React from 'react'
 
 // Your API

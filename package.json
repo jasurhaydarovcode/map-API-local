@@ -1,0 +1,25 @@
+{
+  "name": "local-api-map",
+  "version": "0.0.1",
+  "description": "MAP API REACT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasurhaydarovcode/map-API-local.git"
+  },
+  "keywords": [
+    "API",
+    "REACT",
+    "MAP",
+    "LOCAL"
+  ],
+  "author": "Jasur Haydarov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasurhaydarovcode/map-API-local/issues"
+  },
+  "homepage": "https://github.com/jasurhaydarovcode/map-API-local#readme"
+}
